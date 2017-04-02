@@ -1,0 +1,48 @@
+{
+  "name": "koa-graphql",
+  "version": "0.0.0",
+  "description": "Koa.js with GraphQL and mongoDB",
+  "main": "app",
+  "scripts": {
+    "db": "mongod --dbpath ./data",
+    "start": "node ./dist",
+    "start:debug": "node --inspect ./dist",
+    "dev": "NODE_ENV=development nodemon --ignore './data' --exec babel-node ./src",
+    "dev:debug": "NODE_ENV=development nodemon --ignore './data' --exec babel-node --inspect ./src",
+    "build": "NODE_ENV=production babel src --out-dir dist",
+    "deploy": "",
+    "test": "NODE_ENV=production mocha --compilers js:babel-core/register"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "github:du5rte/dotenv",
+    "graphql": "^0.9.1",
+    "graphql-mongodb-projection": "^1.0.7",
+    "graphql-redis-subscriptions": "^1.1.5",
+    "graphql-relay": "^0.5.1",
+    "graphql-src-koa": "^0.6.0",
+    "graphql-subscriptions": "^0.3.0",
+    "jsonwebtoken": "^7.3.0",
+    "koa": "^2.1.0",
+    "koa-bodyparser": "^4.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-favicon": "^2.0.0",
+    "koa-jwt": "^3.0.0",
+    "koa-logger": "^2.0.1",
+    "koa-router": "^7.0.1",
+    "mongodb": "^2.2.24",
+    "relay-mongodb-connection": "^2.1.0",
+    "subscriptions-transport-ws": "^0.5.5-alpha.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-node7": "^1.5.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "del": "^2.2.2",
+    "eslint": "^3.17.1"
+  }
+}

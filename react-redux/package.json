@@ -1,0 +1,51 @@
+{
+  "name": "react-apollo",
+  "version": "0.0.0",
+  "description": "React with redux and apollo",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client": "^1.0.0-rc.4",
+    "graphql-tag": "^1.3.1",
+    "immutability-helper": "^2.1.2",
+    "react": "^15.4.2",
+    "react-apollo": "^1.0.0-rc.3",
+    "react-dom": "^15.4.2",
+    "react-flexbox": "^3.1.1",
+    "react-motion": "^0.4.7",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "subscriptions-transport-ws": "^0.5.5-alpha.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.18.0",
+    "eslint-loader": "^1.6.3",
+    "exports-loader": "^0.6.4",
+    "expose-loader": "^0.7.3",
+    "file-loader": "^0.10.1",
+    "image-webpack-loader": "^3.2.0",
+    "imports-loader": "^0.7.1",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.14.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

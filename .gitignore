@@ -1,0 +1,15 @@
+# OS file
+.DS_Store
+.DS_Store?
+._*
+.Sportlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+npm-debug.log
+
+# Packages
+node_modules/
+yarn.lock
