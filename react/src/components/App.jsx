@@ -1,13 +1,7 @@
 import React, { Component, PropTypes } from 'react'
-import { observer, inject } from 'mobx-react'
 import View from "react-flexbox"
 
-@inject("toggler") @observer
 export default class App extends Component {
-  handleToggle(e) {
-    this.props.toggler.toggle()
-  }
-
   render() {
     const style = {
       justifyContent: 'center',
@@ -18,7 +12,7 @@ export default class App extends Component {
 
     return (
       <View style={style}>
-        <input type="checkbox" checked={this.props.toggler.state} onChange={this.handleToggle.bind(this)} />
+        Hello World
       </View>
     )
   }
